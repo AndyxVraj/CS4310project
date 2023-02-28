@@ -1,5 +1,7 @@
 About {#mainpage}
 =====
+youtube video: https://www.youtube.com/watch?v=iRCux2wbtc4
+
 
 FreeNOS (Free Niek's Operating System) is an experimental microkernel based
 operating system for learning purposes written in C++. You may use the code
