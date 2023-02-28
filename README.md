@@ -1,7 +1,17 @@
 About {#mainpage}
 =====
-Names: Vraj Patel, Andy Perez
+Names
+
+Vraj Patel
+Andy Perez
+
+
 Link to video: https://www.youtube.com/watch?v=iRCux2wbtc4
+
+
+
+
+
 
 
 FreeNOS (Free Niek's Operating System) is an experimental microkernel based
