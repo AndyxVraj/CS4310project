@@ -243,6 +243,8 @@ class Process
 
   protected:
 
+    priorityLevel pl;
+
     /** Process Identifier */
     const ProcessID m_id;
 
