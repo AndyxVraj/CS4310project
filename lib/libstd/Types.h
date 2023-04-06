@@ -58,6 +58,8 @@ typedef unsigned short u16;
 /** Unsigned 8-bit number. */
 typedef unsigned char u8;
 
+typedef u8 priorityLevel;
+
 /**
  * @}
  */
