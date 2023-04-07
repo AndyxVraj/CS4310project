@@ -26,7 +26,7 @@
 Process::Process(ProcessID id, Address entry, bool privileged, const MemoryMap &map)
     : m_id(id), m_map(map), m_shares(id)
 {
-    pl = 3;
+    pl = def;
     m_state         = Stopped;
     m_parent        = 0;
     m_waitId        = 0;
@@ -82,6 +82,11 @@ Process::State Process::getState() const
 {
     return m_state;
 }
+
+Process::priorityLevel Process::getPriority(){
+    return pl;
+}
+
 
 ProcessShares & Process::getShares()
 {
